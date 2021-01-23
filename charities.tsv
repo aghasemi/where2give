@@ -49,7 +49,7 @@ PLZ	Name	Address	Accepted Items	Website
 3600	Madame Frigo AKuT	Seestrasse 20, 3600 Thun	Food	https://www.madamefrigo.ch/en/
 6460	Madame Frigo Schmiedgasse	Schmiedgasse 10, 6460 Altdorf	Food	https://www.madamefrigo.ch/en/
 3920	Madame Frigo Winkel Kunterbunt	Staldenstrasse 102, 3920 Zermatt	Food	https://www.madamefrigo.ch/en/
-6314	Madame Frigo Unterägeri	Oberdorfparkplatz, 6314 Unterägeri	Food	https://www.madamefrigo.ch/en/
+6314	Madame Frigo Unterägeri	Oberdorfparkplatz, 6314 Unterägeri.	Food	https://www.madamefrigo.ch/en/
 8152	Madame Frigo Rohrholzstrasse	Rohrholzstrasse 53, 8152 Opfikon	Food	https://www.madamefrigo.ch/en/
 8610	Madame Frigo Uster	Zeughausgasse, 8610 Uster	Food	https://www.madamefrigo.ch/en/
 8603	Madame Frigo Schwerzenbach	Sonnenbergstrasse 66, 8603 Schwerzenbach	Food	https://www.madamefrigo.ch/en/
@@ -70,3 +70,9 @@ PLZ	Name	Address	Accepted Items	Website
 8404	Brocki Winterthur	Fröschenweidstrasse 12, 8404 Winterthur	Household Items	https://www.brockenstube-winterthur.ch/
 5036	Brockishop Aarau West	Ausserfeldstrasse 1, 5036 Oberentfelden	Household Items	http://www.brockishop-aarau.ch/de/home
 9500	Brockishop Wil	Toggenburgerstr. 132, 9500 Wil	Household Items	http://www.brockishop.com/de/wil_sg/brockishop_wil
+8645	Brockishop Jona	Buechstrasse 2, 8645 Jona	Household Items	http://www.brockishop.com/de/jona_sg/brockishop_jona
+9630	Brockishop Wattwil	Wilerstrasse 63, 9630 Wattwil	Household Items	http://www.brockishop.com/de/wattwil/brockishop_wattwil
+1022	Le Point Bleu	Avenue de la Gare 31, 1022 Chavannes-près-Renens	Household Items, Clothing	https://www.croix-bleue.ch/
+4153	Wohn- und Bürozentrum für Körperbehinderte (WBZ)	Aumattstrasse 20-72, 4153 Reinach	Household Items, Clothing	https://www.wbz.ch/
+8005	Winterhilfe Zürich	Limmatstrasse 114, 8005 Zürich	Clothing	https://zh.winterhilfe.ch/
+8004	Arche Für Familien	Zeughaussstrasse 60, 8004 Zürich	Clothing	http://www.arche-fuerfamilien.ch/

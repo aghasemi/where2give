@@ -11,7 +11,7 @@ def plz_distance(src,dest):
     return result * 6371000/1000  # multiply by Earth radius to get kilometers
 
 
-post_codes = pd.read_csv('plzs.tsv',sep='\t',header=None)
+post_codes = pd.read_csv('swiss_plzs.tsv',sep='\t',header=None)
 charities = pd.read_csv('charities.tsv',sep='\t')
 charities['Accepted Items'] = charities['Accepted Items'].str.split(',')
 #post_codes['postal_area'] = post_codes[1].astype('str') + ' ' + post_codes[2]
@@ -45,7 +45,7 @@ if len(post_code)>0:
     result_df = charities[charities.apply(lambda row: any([x in row['Accepted Items'] for x in items]),axis=1)].sort_values(by='distance',ascending=True)
     result =''
     for i,row in result_df.head(10).iterrows():
-        result += f"* _{row['distance']:2.1f} Km_. [{row['Name']}]({row['Website']}), {row['Address']}. Accepts __{','.join(row['Accepted Items'])}__\n"
+        result += f"* _{row['distance']:2.1f} km_. [{row['Name']}]({row['Website']}), {row['Address']}. Accepts __{','.join(row['Accepted Items'])}__\n"
     st.markdown(result)
 
 
