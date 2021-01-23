@@ -30,7 +30,7 @@ st.title('Where2Give: Find the closest location where you can give away your spa
 st.markdown(""" ### Introduction
 It happens more than often that we have spare items or canned food that we no longer use, and on the other hand don't think at all they should be thrown away. I have always had difficulty finding 
 the right organisation to donate spare items, which is also closeby. Therefore, I decided to create a database of all places in Switzerland where you can donate (canned) food, 
-household appliances, furniture, and other non-monetary items. Please help complete this database by going to [https://github.com/aghasemi/where2give]() and adding new organisations to the file 
+household appliances, furniture, and other non-monetary items. Please help complete this database by going to https://github.com/aghasemi/where2give and adding new organisations to the file 
 `charities.tsv`.
 
 Here you can find the location closest to you by searching for a certain postal code and the item you want to dontate. 
