@@ -28,7 +28,7 @@ item_types = (list(set(flatten_list(list(charities['Accepted Items'])))))
 st.set_page_config(page_title='Where2Give: Find the closest location where you can give away your spare items for charitable use',layout='wide')
 st.title('Where2Give: Find the closest location where you can give away your spare items for charitable use')
 st.markdown(""" ### Introduction
-It happens more than often that we have spare items or canned food that we no longer use, and on the other hand don't think at all they should be thrown away. I had always had the difficulty to find 
+It happens more than often that we have spare items or canned food that we no longer use, and on the other hand don't think at all they should be thrown away. I have always had the difficulty to find 
 the right organisation to donate spare items, which is also closeby. Therefore, I decided to create a database of all places in Switzerland where you can donate (canned) food, 
 household appliances, furniture, and other non-monetary items. Please help complete this database by going to [https://github.com/aghasemi/where2give]() and adding new organisations to the file 
 `charities.tsv`.
