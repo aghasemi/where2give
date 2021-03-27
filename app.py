@@ -26,6 +26,7 @@ coordinates['3001'] = coordinates['3004'] #Fix some missing postal codes
 item_types = (list(set(flatten_list(list(charities['Accepted Items'])))))
 item_types = [s.strip() for s in item_types]
 
+
 st.set_page_config(page_title='Where2Give: Find the closest location where you can give away your spare items for charitable use',layout='wide')
 st.title('Where2Give: Find the closest location where you can give away your spare items for charitable use')
 st.markdown(""" ### Introduction
